@@ -12,5 +12,6 @@
   "preprocessingFunctions": [
   ],
   "geoprocessingFunctions": [
+    "src/functions/boundaryAreaOverlap.ts"
   ]
 }
