@@ -1,7 +1,7 @@
 {
-  "name": "bakul-reports",
+  "name": "default-report",
   "version": "3.0.0",
-  "description": "Bakul report",
+  "description": "Default report",
   "main": "src/index.js",
   "private": false,
   "scripts": {
@@ -65,15 +65,15 @@
     "@turf/boolean-disjoint": "^6.5.0",
     "@turf/boolean-valid": "^6.5.0"
   },
-  "repositoryUrl": "https://github.com/seasketch/bakul-reports",
+  "repositoryUrl": "https://github.com/seasketch/default-report",
   "author": "Abby Vath Meyer",
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seasketch/bakul-reports.git"
+    "url": "git+https://github.com/seasketch/default-report.git"
   },
-  "homepage": "https://github.com/seasketch/bakul-reports#readme",
+  "homepage": "https://github.com/seasketch/default-report#readme",
   "bugs": {
-    "url": "https://github.com/seasketch/bakul-reports/issues"
+    "url": "https://github.com/seasketch/default-report/issues"
   }
 }

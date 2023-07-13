@@ -1,8 +1,7 @@
 {
   "Description": "Description",
   "Author(s)": "Author(s)",
-  "Bakul": "Bakul",
-  "EEZ": "EEZ",
-  "EEZ Objective": "EEZ Objective",
-  "Fully Protected Area": "Fully Protected Area"
+  "Fully Protected Area": "Fully Protected Area",
+  "General": "General",
+  "Global": "Global"
 }

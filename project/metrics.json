@@ -3,10 +3,10 @@
   "type": "areaOverlap",
   "classes": [
       {
-          "classId": "eez",
-          "display": "EEZ",
+          "classId": "global",
+          "display": "Global",
           "datasourceId": "global-clipping-eez-land-union",
-          "objectiveId": "eez",
+          "objectiveId": "",
           "layerId": ""
       }
   ]

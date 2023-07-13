@@ -4,9 +4,9 @@
   "region": "us-west-1",
   "clients": [
     {
-      "name": "MpaTabReport",
-      "description": "Report suite for MPA planning within EEZ with tab navigation",
-      "source": "src/clients/MpaTabReport.tsx"
+      "name": "SketchAttributes",
+      "description": "Simple report for size and attributes of sketch",
+      "source": "src/clients/SketchAttributes.tsx"
     }
   ],
   "preprocessingFunctions": [
