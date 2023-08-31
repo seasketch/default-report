@@ -72,5 +72,14 @@
   "SizeCard title": "जोन का आकार",
   "Target": "लक्ष्य",
   "Value": "कीमत",
-  "Viability": "व्यवहार्यता"
+  "Viability": "व्यवहार्यता",
+  "Bakul": "बकुल",
+  "EEZ": "ईईजेड",
+  "EEZ Objective": "ईईजेड उद्देश्य",
+  "Fully Protected Area": "पूर्णतः संरक्षित क्षेत्र",
+  "General": "आम",
+  "Global": "वैश्विक",
+  "Results not found": "परिणाम नहीं मिले",
+  "Should return a single metric": "एक एकल मीट्रिक लौटाना चाहिए",
+  "The area of this sketch is ": "इस रेखाचित्र का क्षेत्रफल है "
 }

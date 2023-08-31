@@ -72,5 +72,14 @@
   "SizeCard title": "Tamaño de zona",
   "Target": "Objetivo",
   "Value": "Valor",
-  "Viability": "Viabilidad"
+  "Viability": "Viabilidad",
+  "Bakul": "Bakul",
+  "EEZ": "ZEE",
+  "EEZ Objective": "Objetivo de la ZEE",
+  "Fully Protected Area": "Área Totalmente Protegida",
+  "General": "General",
+  "Global": "Global",
+  "Results not found": "Resultados no encontrados",
+  "Should return a single metric": "Debería devolver una sola métrica",
+  "The area of this sketch is ": "El área de este croquis es "
 }

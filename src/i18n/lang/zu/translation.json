@@ -72,5 +72,14 @@
   "SizeCard title": "Usayizi Wendawo",
   "Target": "Ithagethi",
   "Value": "Inani",
-  "Viability": "Ukusebenza"
+  "Viability": "Ukusebenza",
+  "Bakul": "Bakul",
+  "EEZ": "EEZ",
+  "EEZ Objective": "Inhloso ye-EEZ",
+  "Fully Protected Area": "Indawo Evikelwe Ngokugcwele",
+  "General": "Okujwayelekile",
+  "Global": "Umhlaba jikelele",
+  "Results not found": "Imiphumela ayitholakali",
+  "Should return a single metric": "Kufanele ibuyise imethrikhi eyodwa",
+  "The area of this sketch is ": "Indawo yalo mdwebo "
 }

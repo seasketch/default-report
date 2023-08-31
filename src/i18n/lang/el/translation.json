@@ -1,0 +1,15 @@
+{
+  "Author(s)": "Συγγραφέας(οι)",
+  "Bakul": "Bakul",
+  "Description": "Περιγραφή",
+  "EEZ": "ΑΟΖ",
+  "EEZ Objective": "Στόχος ΑΟΖ",
+  "Fully Protected Area": "Πλήρως Προστατευόμενη Περιοχή",
+  "General": "Γενικός",
+  "Global": "Παγκόσμια",
+  "km²": "km²",
+  "Results not found": "Τα αποτελέσματα δεν βρέθηκαν",
+  "Should return a single metric": "Θα πρέπει να επιστρέψει μια μεμονωμένη μέτρηση",
+  "Size": "Μέγεθος",
+  "The area of this sketch is ": "Η περιοχή αυτού του σκίτσου είναι "
+}

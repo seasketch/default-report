@@ -73,5 +73,13 @@
   "Target": "ޓާގެޓް",
   "Value": "ވެލިއު",
   "Viability": "ވިޔަބިލިޓީ",
-  "The area of this sketch is ": "މި ސްކެޗްގެ ސަރަހައްދަކީ "
+  "The area of this sketch is ": "މި ސްކެޗްގެ ސަރަހައްދަކީ ",
+  "Bakul": "Bakul",
+  "EEZ": "EEZ",
+  "EEZ Objective": "EEZ Objective",
+  "Fully Protected Area": "ފުރިހަމައަށް ހިމާޔަތްކޮށްފައިވާ ސަރަޙައްދު",
+  "General": "ޖެނެރަލް ޑރ.",
+  "Global": "ގްލޯބަލް",
+  "Results not found": "ނަތީޖާ ނުފެނުނު",
+  "Should return a single metric": "އެއް މެޓްރިކެއް ރައްދުކުރަންވާނެއެވެ."
 }

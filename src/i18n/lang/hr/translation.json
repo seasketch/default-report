@@ -72,5 +72,14 @@
   "SizeCard title": "Veličina zone",
   "Target": "Cilj",
   "Value": "Vrijednost",
-  "Viability": "Održivost"
+  "Viability": "Održivost",
+  "Bakul": "Bakul",
+  "EEZ": "IEZ",
+  "EEZ Objective": "IEZ Cilj",
+  "Fully Protected Area": "Potpuno zaštićeno područje",
+  "General": "Općenito",
+  "Global": "Globalno",
+  "Results not found": "Rezultati nisu pronađeni",
+  "Should return a single metric": "Trebalo bi vratiti jednu metriku",
+  "The area of this sketch is ": "Područje ove skice je "
 }

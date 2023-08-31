@@ -72,5 +72,14 @@
   "SizeCard title": "Ukuran Zona",
   "Target": "Target",
   "Value": "Nilai",
-  "Viability": "Kelangsungan hidup"
+  "Viability": "Kelangsungan hidup",
+  "Bakul": "Bakul",
+  "EEZ": "ZEE",
+  "EEZ Objective": "Tujuan ZEE",
+  "Fully Protected Area": "Area yang Dilindungi Sepenuhnya",
+  "General": "Umum",
+  "Global": "Global",
+  "Results not found": "Hasil tidak ditemukan",
+  "Should return a single metric": "Harus mengembalikan satu metrik",
+  "The area of this sketch is ": "Luas sketsa ini adalah "
 }

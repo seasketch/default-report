@@ -72,5 +72,14 @@
   "SizeCard title": "Ka nui o ka ʻāpana",
   "Target": "Kuhikuhi",
   "Value": "Waiwai",
-  "Viability": "Hiki ke ola"
+  "Viability": "Hiki ke ola",
+  "Bakul": "Bakul",
+  "EEZ": "EEZ",
+  "EEZ Objective": "EEZ Pahuhopu",
+  "Fully Protected Area": "Wahi Palekana",
+  "General": "Generala",
+  "Global": "Ka honua",
+  "Results not found": "ʻAʻole i loaʻa nā hopena",
+  "Should return a single metric": "Pono e hoʻihoʻi i hoʻokahi metric",
+  "The area of this sketch is ": "ʻO ka ʻāpana o kēia kiʻi "
 }

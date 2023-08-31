@@ -72,5 +72,14 @@
   "SizeCard title": "Zonengröße",
   "Target": "Ziel",
   "Value": "Wert",
-  "Viability": "Lebensfähigkeit"
+  "Viability": "Lebensfähigkeit",
+  "Bakul": "Bakul",
+  "EEZ": "AWZ",
+  "EEZ Objective": "AWZ-Ziel",
+  "Fully Protected Area": "Vollständig geschütztes Gebiet",
+  "General": "Allgemein",
+  "Global": "Global",
+  "Results not found": "Ergebnisse nicht gefunden",
+  "Should return a single metric": "Sollte eine einzelne Metrik zurückgeben",
+  "The area of this sketch is ": "Die Fläche dieser Skizze beträgt "
 }

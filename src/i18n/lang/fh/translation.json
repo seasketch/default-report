@@ -72,5 +72,14 @@
   "SizeCard title": "क्षेत्र का आकार",
   "Target": "लक्ष्य",
   "Value": "मूल्य",
-  "Viability": "व्यावहारिकता"
+  "Viability": "व्यावहारिकता",
+  "Bakul": "बकुल",
+  "EEZ": "EEZ",
+  "EEZ Objective": "ईईजेड का उद्देश्य",
+  "Fully Protected Area": "पूरी तरह से संरक्षित क्षेत्र",
+  "General": "सामान्य",
+  "Global": "वैश्विक",
+  "Results not found": "परिणाम नहीं मिले",
+  "Should return a single metric": "एक एकल मीट्रिक वापस करना चाहिए",
+  "The area of this sketch is ": "इस स्केच का क्षेत्रफल क्या है? "
 }

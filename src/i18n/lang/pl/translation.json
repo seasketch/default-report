@@ -72,5 +72,14 @@
   "SizeCard title": "Rozmiar strefy",
   "Target": "Cel",
   "Value": "Wartość",
-  "Viability": "Zdolność do życia"
+  "Viability": "Zdolność do życia",
+  "Bakul": "Bakuł",
+  "EEZ": "WSE",
+  "EEZ Objective": "Cel WSE",
+  "Fully Protected Area": "W pełni chroniony obszar",
+  "General": "Ogólny",
+  "Global": "Światowy",
+  "Results not found": "Nie znaleziono wyników",
+  "Should return a single metric": "Powinien zwrócić jedną metrykę",
+  "The area of this sketch is ": "Pole tego szkicu to "
 }

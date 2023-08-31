@@ -72,5 +72,14 @@
   "SizeCard title": "Taille des zones",
   "Target": "Cible",
   "Value": "Valeur",
-  "Viability": "Viabilité"
+  "Viability": "Viabilité",
+  "Bakul": "Bakoul",
+  "EEZ": "ZEE",
+  "EEZ Objective": "Objectif ZEE",
+  "Fully Protected Area": "Zone entièrement protégée",
+  "General": "Général",
+  "Global": "Mondial",
+  "Results not found": "Résultats introuvables",
+  "Should return a single metric": "Doit renvoyer une seule métrique",
+  "The area of this sketch is ": "L'aire de cette esquisse est "
 }

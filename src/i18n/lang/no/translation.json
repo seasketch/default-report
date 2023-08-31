@@ -72,5 +72,14 @@
   "SizeCard title": "Sonestørrelse",
   "Target": "Mål",
   "Value": "Verdi",
-  "Viability": "Levedyktighet"
+  "Viability": "Levedyktighet",
+  "Bakul": "Bakul",
+  "EEZ": "EEZ",
+  "EEZ Objective": "EEZ-mål",
+  "Fully Protected Area": "Fullt beskyttet område",
+  "General": "Generell",
+  "Global": "Global",
+  "Results not found": "Finner ikke resultater",
+  "Should return a single metric": "Skal returnere én enkelt beregning",
+  "The area of this sketch is ": "Arealet av denne skissen er "
 }

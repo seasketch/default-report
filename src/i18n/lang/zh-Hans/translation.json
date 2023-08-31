@@ -72,5 +72,14 @@
   "SizeCard title": "区域大小",
   "Target": "目标",
   "Value": "价值",
-  "Viability": "可行性"
+  "Viability": "可行性",
+  "Bakul": "巴库尔",
+  "EEZ": "专属经济区",
+  "EEZ Objective": "专属经济区目标",
+  "Fully Protected Area": "完全保护区",
+  "General": "一般的",
+  "Global": "全球的",
+  "Results not found": "未找到结果",
+  "Should return a single metric": "应该返回单个指标",
+  "The area of this sketch is ": "该草图的面积是 "
 }

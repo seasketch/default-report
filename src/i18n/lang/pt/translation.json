@@ -76,5 +76,12 @@
   "(Not answered)": "(Não respondido)",
   "% Within Plan": "% Dentro do Plano",
   "Results not found": "Resultados não encontrados",
-  "The area of this sketch is ": "A área desse esboço é "
+  "The area of this sketch is ": "A área desse esboço é ",
+  "Bakul": "Bakul",
+  "EEZ": "ZEE",
+  "EEZ Objective": "Objetivo da ZEE",
+  "Fully Protected Area": "Área Totalmente Protegida",
+  "General": "Em geral",
+  "Global": "Global",
+  "Should return a single metric": "Deve retornar uma única métrica"
 }

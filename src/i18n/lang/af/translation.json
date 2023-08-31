@@ -72,5 +72,14 @@
   "SizeCard title": "Sone Grootte",
   "Target": "Teiken",
   "Value": "Waarde",
-  "Viability": "Lewensvatbaarheid"
+  "Viability": "Lewensvatbaarheid",
+  "Bakul": "Bakoel",
+  "EEZ": "EEZ",
+  "EEZ Objective": "EEZ-doelwit",
+  "Fully Protected Area": "Ten volle beskermde gebied",
+  "General": "Algemeen",
+  "Global": "Wêreldwyd",
+  "Results not found": "Resultate nie gevind nie",
+  "Should return a single metric": "Behoort 'n enkele maatstaf terug te gee",
+  "The area of this sketch is ": "Die oppervlakte van hierdie skets is "
 }

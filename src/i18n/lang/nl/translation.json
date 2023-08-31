@@ -72,5 +72,14 @@
   "SizeCard title": "Zonegrootte",
   "Target": "Doel",
   "Value": "Waarde",
-  "Viability": "Levensvatbaarheid"
+  "Viability": "Levensvatbaarheid",
+  "Bakul": "Bakul",
+  "EEZ": "EEZ",
+  "EEZ Objective": "EEZ-doelstelling",
+  "Fully Protected Area": "Volledig beschermd gebied",
+  "General": "Algemeen",
+  "Global": "Globaal",
+  "Results not found": "Resultaten niet gevonden",
+  "Should return a single metric": "Moet een enkele statistiek retourneren",
+  "The area of this sketch is ": "Het gebied van deze schets is "
 }
