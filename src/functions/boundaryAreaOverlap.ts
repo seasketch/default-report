@@ -10,24 +10,41 @@ import {
   overlapFeatures,
   rekeyMetrics,
   sortMetrics,
-  getFlatGeobufFilename,
   isInternalVectorDatasource,
   isExternalVectorDatasource,
   isPolygonFeatureArray,
+  getFirstFromParam,
+  splitSketchAntimeridian,
+  isVectorDatasource,
 } from "@seasketch/geoprocessing";
-import {
-  fgbFetchAll,
-  getFeatures,
-} from "@seasketch/geoprocessing/dataproviders";
+import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
+import { DefaultExtraParams } from "@seasketch/geoprocessing/client-core";
+import { clipToGeography } from "../util/clipToGeography";
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
 
 export async function boundaryAreaOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
-  const sketchBox = sketch.bbox || bbox(sketch);
+  // Use caller-provided geographyId if provided
+  const geographyId = getFirstFromParam("geographyIds", extraParams);
+
+  // Get geography features, falling back to geography assigned to default-boundary group
+  const curGeography = project.getGeographyById(geographyId, {
+    fallbackGroup: "default-boundary",
+  });
+
+  // Support sketches crossing antimeridian
+  const splitSketch = splitSketchAntimeridian(sketch);
+
+  // Clip to portion of sketch within current geography
+  const clippedSketch = await clipToGeography(splitSketch, curGeography);
+
+  // Get bounding box of sketch remainder
+  const sketchBox = clippedSketch.bbox || bbox(clippedSketch);
 
   // Fetch boundary features indexed by classId
   const polysByBoundary = (
@@ -37,15 +54,12 @@ export async function boundaryAreaOverlap(
           throw new Error(`Missing datasourceId ${curClass.classId}`);
         }
         const ds = project.getDatasourceById(curClass.datasourceId);
-        if (
-          !isInternalVectorDatasource(ds) &&
-          !isExternalVectorDatasource(ds)
-        ) {
+        if (!isVectorDatasource(ds)) {
           throw new Error(`Expected vector datasource for ${ds.datasourceId}`);
         }
 
-        // Fetch only the features that overlap the bounding box of the sketch
-        const url = project.getVectorDatasourceUrl(ds);
+        // Fetch datasource features overlapping with sketch remainder
+        const url = project.getDatasourceUrl(ds);
         const polys = await getFeatures(ds, url, {
           bbox: sketchBox,
         });
@@ -68,12 +82,13 @@ export async function boundaryAreaOverlap(
         const overlapResult = await overlapFeatures(
           metricGroup.metricId,
           polysByBoundary[curClass.classId],
-          sketch
+          clippedSketch
         );
         return overlapResult.map(
           (metric): Metric => ({
             ...metric,
             classId: curClass.classId,
+            geographyId: curGeography.geographyId,
           })
         );
       })
@@ -83,11 +98,10 @@ export async function boundaryAreaOverlap(
     (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
     []
   );
-  console.log("the  metrics", metrics);
 
   return {
     metrics: sortMetrics(rekeyMetrics(metrics)),
-    sketch: toNullSketch(sketch, true),
+    sketch: toNullSketch(clippedSketch, true),
   };
 }
 

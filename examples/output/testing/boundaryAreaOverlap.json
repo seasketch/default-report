@@ -1,25 +1,18 @@
 {
   "metrics": [
     {
+      "geographyId": "world",
       "metricId": "boundaryAreaOverlap",
-      "sketchId": "15592",
       "classId": "global",
+      "sketchId": "15592",
       "groupId": null,
-      "geographyId": null,
-      "value": 512634558.47156495,
+      "value": 512634412.759135,
       "extra": {
         "sketchName": "testing"
       }
     }
   ],
   "sketch": {
-    "id": 15592,
-    "bbox": [
-      73.51991,
-      4.8325896,
-      73.839424,
-      4.9988847
-    ],
     "type": "Feature",
     "properties": {
       "3092": [
@@ -63,6 +56,13 @@
         }
       ]
     },
+    "id": 15592,
+    "bbox": [
+      73.519916239,
+      4.832589689,
+      73.839427417,
+      4.998884529
+    ],
     "geometry": null
   }
 }
