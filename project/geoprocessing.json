@@ -9,9 +9,6 @@
       "source": "src/clients/SketchAttributes.tsx"
     }
   ],
-  "preprocessingFunctions": [
-  ],
-  "geoprocessingFunctions": [
-    "src/functions/boundaryAreaOverlap.ts"
-  ]
+  "preprocessingFunctions": [],
+  "geoprocessingFunctions": ["src/functions/areaOverlap.ts"]
 }

@@ -1,12 +1,8 @@
 {
-  "bbox": [
-    -180,
-    -180,
-    180,
-    180
-  ],
+  "bbox": [-180, -180, 180, 180],
   "planningAreaType": "other",
   "planningAreaId": "General",
   "planningAreaName": "General",
-  "externalLinks": {}
+  "externalLinks": {},
+  "languages": ["EN"]
 }

@@ -1,4 +1,5 @@
 # Global Default Report
+
 This is a deployed global report that can be added to any new sketch class in SeaSketch. It displays the area and attributes of the sketch.
 
 # Geoprocessing

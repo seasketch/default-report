@@ -1,13 +1,15 @@
-[{
-  "metricId": "boundaryAreaOverlap",
-  "type": "areaOverlap",
-  "classes": [
+[
+  {
+    "metricId": "areaOverlap",
+    "type": "areaOverlap",
+    "classes": [
       {
-          "classId": "global",
-          "display": "Global",
-          "datasourceId": "global-clipping-eez-land-union",
-          "objectiveId": "",
-          "layerId": ""
+        "classId": "global",
+        "display": "Global",
+        "datasourceId": "global-clipping-eez-land-union",
+        "objectiveId": "",
+        "layerId": ""
       }
-  ]
-}]
+    ]
+  }
+]

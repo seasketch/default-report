@@ -56,7 +56,7 @@ export const SketchAttributesCard = ({
                   if (value[0] === "[") {
                     const listValues = JSON.parse(value);
                     const displayValues = listValues.map(
-                      (listValue: any) => mappings[attr.exportId][listValue]
+                      (listValue: any) => mappings[attr.exportId][listValue],
                     );
                     valueLabel = displayValues
                       .map((v: any) => v.toString())
